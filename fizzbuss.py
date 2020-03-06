@@ -15,14 +15,6 @@ def check_if_buzz(temp_num, num):
     else:
         return num
 
-number = ''
-while number != "penpinapplespen":
-    number = int(input("Enter a number: "))
-    temp_num = number
-    number = 0
-    while number <= (temp_num):
-        number += 1
-        print(check_if_buzz(temp_num, number))
 
 
 
